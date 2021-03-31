@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"content="width-device-width, initial-scale-1.0">
+        <title>Página 4</title>
+    </head> 
+    <body>
+        <header>
+            <center><nav><h1>CATÁLOGO DE ARTE</h1></nav></center>
+        </header>
+        <b>Introduce los términos de busqueda:</b>
+        <main>
+            
+            <section>
+                
+            <form action="registro.php" method="GET"></form>
+            <table align="center" style="border: hidden">
+            <thead>
+                <tr>
+                    <th>OBRA</th>
+                    <th></th>
+                    <th>TIPO</th>
+                    <th></th>
+                    <th>DISPONIBILIDAD</th>
+                    <th></th>
+                    <th></th>
+                    <th>ESTILO</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><label for="titulo">Título</label>
+                    <input type="text" name="titulo" id="titulo" value=""></td>
+                    <td></td>
+                    <td><label><input type="checkbox" name="Escultura">Escultura</label></td>
+                    <td></td>
+                    <td><label><input type="radio" value="1" name="disp" id="disp"> Museo / Acceso Público</label></td>
+                    <td></td>
+                    <td></td>
+                    <td><select name="estilo" id="estilo">
+                        <option value="1">Clásico</option>
+                        <option value="2">Digital</option>
+                        <option value="3">Cubista</option>
+                        <option value="4">Griego</option>
+                        <option value="5">Chino</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Autor">Autor</label>
+                    <input type="text" name="autor" id="autor" value=""></td>
+                    <td></td>
+                    <td><label><input type="checkbox" name="Arquitectura">Arquitectura</label></td>
+                    <td></td>
+                    <td><label><input type="radio" value="2" name="disp">Colección privada</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><label><input type="checkbox" name="Pintura">Pintura</label></td>
+                </tr>
+            
+            </tbody>
+            <tr>
+                <td>Haganos saber sus sugerencias:</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="3"><label><textarea name="mensaje" placeholder="Me gustaría indicar que.."></textarea></p> </td>
+            </tr>
+        </table>
+    </section>
+
+    </main>
+    <center>
+    <td><input type="submit" value="Buscar"></td>
+    </center>
+    <right><a href="examen2_GCR.html"><font size="3"> <b>ENLACES</b></font></a></right>
+    </body>
+
+
+    
+
+</html>
