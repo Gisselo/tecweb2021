@@ -1,0 +1,36 @@
+.boton-default{
+    text-decoration: none;
+    background-color: rgb(248, 249,250);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+
+}
+
+.boton-primary{
+    text-decoration: none;
+    background-color: rgb(58, 117,253);
+    color: rgb(255, 255,255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+
+.boton-success{
+    text-decoration: none;
+    background-color: rgb(50, 170,71);
+    color: rgb(255, 255,255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
